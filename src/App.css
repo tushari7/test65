@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+ /* login page css */
+.bg-image-vertical {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto 100%;
+  }
+  
+  @media (min-width: 1025px) {
+  .h-custom-2 {
+  height: 100%;
+  }
+  }
+
+  .formcs{
+    width: 23rem;
+  }
+
+  .w-100{
+    object-fit: cover; 
+    object-position: left;
+  }
+
+  .fw-normal{
+    letter-spacing: 1px;
+  }
+
+  .zzz{
+    background-color: white;
+border: 2px solid rgba(231, 231, 231, 0.815);
+padding: 40px;
+border-radius: 8px;
+box-shadow: 2px 3px 8px 0 rgb(99 73 73 / 9%), 4px 3px 20px 2px rgb(10 5 5 / 53%);
+/* box-shadow: 0 4px 8px 0 rgba(167, 2, 2, 0.514), 0 6px 20px 0 rgba(133, 6, 6, 0.479) */
+  }
+
+
+@media only screen and (max-width: 500px)  {
+.zzz{
+width: 320px;
+}
+}
+
+.number{
+  width: 18px;
+}
+.option{
+  text-align: center;
+  width: 50px;
+}
+
+.eye{
+  border: 2px;
+background: white;
+position: absolute;
+margin: -32px 0px 0px 418px;
+
+}
+@media only screen and (max-width: 362px)  {
+  .eye{
+    margin: -32px 0px 0px 200px;
+  }
+  }
+
+@media only screen and (max-width: 600px)  {
+  .eye{
+    margin: -32px 0px 0px 200px;
+  }
+  }
+  @media only screen and (max-width: 800px)  {
+    .eye{
+      margin: -32px 0px 0px 240px;
+    }}
+
+
+.set{
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+/* .this{
+  background-image: url(https://picsum.photos/200/300);
+} */
+
+.rounded{
+  border: 2px solid white;
+}
+
+
+.foot{
+  height: 30px;
+  background: white;
+}
+
+.circ{
+  background: white;
+}
+
+.kkkk{
+  background: white;
+}
+
+.showd{
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  
+}
+
+
+/* table styles */
+/* .bordered-table th,.bordered-table td {
+  border: 1px solid #000000;
+} */
